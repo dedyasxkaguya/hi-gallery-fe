@@ -1,0 +1,8 @@
+@import "tailwindcss";
+
+*{
+  font-family: 'Roboto',sans-serif;
+}
+.usernameBox{
+  background-color: rgba(255, 255, 255, .6);
+}
