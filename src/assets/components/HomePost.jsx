@@ -3,7 +3,7 @@ import React from 'react'
 const HomePost = (data) => {
     const imageLink = data.data.image
     return (
-        <div class="max-w-sm bg-white rounded-xl shadow-lg overflow-hidden dark:bg-gray-800 flex flex-col justify-between blyat"
+        <div class="max-w-sm bg-white rounded-xl shadow-lg overflow-hidden dark:bg-gray-800 flex flex-col justify-between blyat m-8"
         style={{ backgroundImage:`url(${imageLink})` }}>
             <div className="">
                 <img src={`http://127.0.0.1:8000/${data.data.image}`} alt="" className="aspect-square object-cover" />
